@@ -111,3 +111,13 @@ function sumOfEvenNumbers(nums) {
 // console.log(sumOfEvenNumbers(numbers));
 
 
+// Task 7: Leap Year Checker
+
+function isLeapYear(year) {
+  if (year % 4 !== 0) return false;
+  if (year % 100 !== 0) return true;
+  return year % 400 === 0;
+}
+
+// console.log(isLeapYear(2024)); // true
+// console.log(isLeapYear(2023)); // false
